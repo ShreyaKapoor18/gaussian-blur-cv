@@ -85,6 +85,8 @@ Large σ → weights flatten → approaches a uniform box blur.
 
 The kernel is **convolved** over the image: slide it to every valid position, multiply each kernel weight against the overlapping pixel, sum the products.
 
+![Convolution animation](assets/convolution.gif)
+
 For a 5×5 image with a 3×3 kernel (no padding), valid positions = (5-3+1)² = **9** output pixels.
 
 ```
